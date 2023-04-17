@@ -134,6 +134,11 @@ If you discover a security vulnerability within PocketBase, please send an e-mai
 
 All reports will be promptly addressed, and you'll be credited accordingly.
 
+## Running Docker
+
+1. Run command `docker build -t pocketbase .`
+2. Run command `docker run -it --rm -p 8090:8090 pocketbase`
+
 
 ## Contributing
 
